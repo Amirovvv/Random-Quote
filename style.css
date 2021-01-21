@@ -1,0 +1,43 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+body {
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  background-color: white;
+  max-width: 450px;
+  margin: 100px auto;
+  padding: 40px 50px 40px 50px;
+  border-radius: 10px;
+}
+
+h2 {
+  margin: 10px;
+}
+
+.button {
+  padding-top: 30px;
+}
+
+.new-quote {
+  float: right;
+  padding: 14px 20px 14px 20px;
+  border-radius: 5%;
+  background-color: black;
+  color: white;
+  border-color: black;
+  cursor: pointer;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
+  font-weight: 800;
+}
+
+.fa-twitter-square {
+  color: black;
+}
